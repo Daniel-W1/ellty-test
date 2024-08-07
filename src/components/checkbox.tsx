@@ -62,6 +62,6 @@ export const CheckboxWithSVG = ({ hovered, checked }: {
     };
 
     return (
-        <Image src={getCurrentSvg()} alt="Custom SVG Checkbox" width={25} height={25} />
+        <Image src={getCurrentSvg()} alt="Custom SVG Checkbox"/>
     );
 };
